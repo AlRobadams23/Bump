@@ -1,14 +1,14 @@
 # Built application files
-*.apk
-*.aar
-*.ap_
-*.aab
+.apk
+.aar
+.ap_
+.aab
 
 # Files for the ART/Dalvik VM
-*.dex
+.dex
 
 # Java class files
-*.class
+.class
 
 # Generated files
 bin/
@@ -28,7 +28,7 @@ local.properties
 proguard/
 
 # Log Files
-*.log
+.log
 
 # Android Studio Navigation editor temp files
 .navigation/
@@ -37,13 +37,13 @@ proguard/
 captures/
 
 # IntelliJ
-*.iml
+.iml
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
 .idea/assetWizardSettings.xml
 .idea/dictionaries
-.idea/libraries
+# idea/libraries
 # Android Studio 3 in .gitignore file.
 .idea/caches
 .idea/modules.xml
@@ -52,8 +52,8 @@ captures/
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
-#*.jks
-#*.keystore
+# jks
+# keystore
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
